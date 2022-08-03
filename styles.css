@@ -55,7 +55,7 @@ text-decoration: none;
                 /* Styling for the section 2 */
 .section-1 {
     display: flex;
-    gap: 50.5px;
+    gap: 100px;
     flex-direction: row;
     height: 600px;
     background: #0D0D0D;
@@ -150,6 +150,7 @@ strong{
     font-size: 20px;
     line-height: 23px;
     background: #222222;
+    padding: 2px;
 
 color: #FFFFFF;
 }
