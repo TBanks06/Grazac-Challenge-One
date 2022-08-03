@@ -31,7 +31,9 @@ ul{
     justify-content: space-between;
     
 }
-
+.active {
+    border-bottom: 5px solid red;
+}
 .nav_links ul li
 {
 list-style: none;
@@ -255,9 +257,6 @@ d
 
 
 
-.footer-section img {
-    /* padding-left: 297px; */
-}
 
 .footer-section p {
     /* padding-left: 297px; */
@@ -285,12 +284,16 @@ d
 
 .footer_links1 a{
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .footer_links2  a {
     /* line-height: 0; */
     color: #FFFFFF;
     text-decoration: none;
+}
+.footer_links2 p{
+    color: #FFFFFF;
 }
 .footer_links1 ul{
     gap: 5px !important;
