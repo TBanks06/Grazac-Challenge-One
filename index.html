@@ -10,14 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <title>Mocking by Jay</title>
-</head>
-<body>
+    </head>
+    <body>
     <header class="header">
         <div class="nav_logo">
             <img src="/assets/Mocking-by-Jay-header.svg" alt="Logo">
+           
         </div>
         <div class="nav_links">
             <ul class="links">
@@ -26,12 +29,19 @@
                 <li><a href="">MUSIC</a></li>
                 <li><a href="">VIDEOS</a></li>
                 <button class="button">BOOK A SESSION</button>
+                
             </ul>
-
+            
         </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <!-- <img  class="ham" src="assets/hamburger.svg" alt="Homepage"> -->
         
     </header>
-    <main>
+     <main>
         <section class="section-1">
             
             <article class="article-1">
@@ -39,20 +49,22 @@
                 <p>This is the home of music!</p>
                 <button class="button-1">Book an artiste.</button>
             </article> 
-            <div class="hero_img">
-                <img src="/assets/headset.svg" alt="headset">
+            <div class="hero_img hero-med">
+                <img src="/assets/hero-mic-p.png" alt="headset">
             </div>
         </section>
 
-        <section class="section-2-block-1">
-            <article class="article-2">
+         <section class="section-2-block-1">
+            <article class="article-2 med">
                 <div>
                     <h3>We are home to the very best talents & artiste, leading the music industry.</h3>
+                    <div class="new">
                     <p>Mocking by Jay has maintained a strong and innovative push to promote capacity building and creativity that showcase the richness and diversity of the Music culture via story telling</p>
                     <button class="button-2">Learn more</button>
+                    </div>
                 </div>
             </article>
-                <div class="article-2-img">
+                <div class="article-2-img med">
                     <img src="/assets/glass-artiste.svg" alt="Artiste with Glasses">
                     <img class="img-2" src="/assets/tinted-artiste.svg" alt="Artiste with tinted hair">
                     <img src="/assets/Artiste-smiling.svg" alt="A smiling artiste">
@@ -66,31 +78,34 @@
                     <img src="/assets/mic.svg" alt="Microphone">
                 </div>
                 <div>
-                <article class="article-2-block-2">
+                <article class="article-2-block-2 med" >
                 <h3>We license, distribute and publish rich musical content for artistes, song writers and producers.</h3>
                 <p class="article-2-para">We have a transparent structure ensuring that revenues made through content distribution get to these artistes, producers and song writers as due them. We are a music company that is more artistic with extra support that ensures result for signed talents</p>
                 <button class="button-2">Learn more</button>
-            </div>
-            </article> 
+                </article>
+            </div> 
         </section>
            
-        <section class="section-3">
+         <section class="section-3">
             
                 <p>We have worked with some of the world's smartest companies</p>
             
         </section>
        
         <section class="section-4">
-            <div class="section-4-logos">
+            <div class="item item1">
                 <img src="/assets/loveclip.svg" alt="Loveclip logo">
                <img class="logo-2" src="/assets/north_face.svg" alt="The North Face logo">
                <img src="/assets/p&g.svg" alt="P & G logo">
-               <img src="/assets/tatneft.svg" alt="TATNEFT logo">
-               <img class="logo-2" src="/assets/pancho.svg" alt="The pancho logo">
-               <img src="/assets/victory.svg" alt="Victory logo">
-               <p>You can reach us right away. Let's begin your project. <a href="">Write us a message.</a></p>
+               <!-- <p>You can reach us right away. Let's begin your project. <a href="">Write us a message.</a></p> -->
+            </div>
+            <div class="item item2">
+                   <img src="/assets/tatneft.svg" alt="TATNEFT logo">
+                   <img class="logo-2" src="/assets/pancho.svg" alt="The pancho logo">
+                   <img src="/assets/victory.svg" alt="Victory logo">
+
                </div>
-        </section>
+        </section> 
     
     </main>
 
@@ -100,17 +115,17 @@
    
     <footer class="footer">
         <div class="footer-section">
-            <img src="/assets/Mocking-by-Jay-footer.svg" alt="Mocking by Jay logo">
+            <a href="#Home">
+            <img src="/assets/Mocking-by-Jay-footer.svg" alt="Mocking by Jay logo"></a>
             <p>Mocking by Jay is a major record label that is mostly focused on rap music. We manage loads of different artists and therefore are quite a large company whose image is changing constantly.</p>
         </div>
         <div class="footer_links1">
             <ul>
                 <li><a href="">Careers</a></li>
                 <li><a href="">Contact</a></li>
-                <li><a href="">Privacy</a></li>
-                <li><a href="">Policies</a></li>
-                <li><a href="">Artistes</a></li>
-                <li><a href="">Royalties</a></li>
+                <li><a href="">Privacy Policies</a></li>
+                <li><a href="">Artistes Royalties</a></li>
+                
             </ul>
         </div>
         <div class="footer_links2">
@@ -122,7 +137,7 @@
                 <li><a href="">Instagram</a></li>
                 <li><a href="">Pinterest</a></li>
             </ul>
-        </div>
-    </footer>
+        </div> 
+     </footer> 
 </body>
 </html>
